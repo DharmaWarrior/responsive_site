@@ -56,7 +56,7 @@ const namebox = {
 
 };
 
-const ImageSlider = ({ slides }) => {
+const TextSlider = ({ slides }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const goToSlide = (slideIndex) => {
     setCurrentIndex(slideIndex);
@@ -91,4 +91,4 @@ const ImageSlider = ({ slides }) => {
   );
 };
 
-export default ImageSlider;
+export default TextSlider;

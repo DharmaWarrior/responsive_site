@@ -1,5 +1,5 @@
 import React from 'react';
-import ImageSlider from "./ImageSlider";
+import TextSlider from "./TextSlider";
 import './header.css'; 
 import student from '../../assets/student.png';
 
@@ -33,7 +33,7 @@ const Header = () => {
         <img src={student} alt='/'></img>
       </div>
       <div style={containerStyles}>
-        <ImageSlider slides={slides} />
+        <TextSlider slides={slides} />
       </div>
     </div>
   )
